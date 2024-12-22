@@ -1,13 +1,13 @@
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <h1>Oto Gostozo</h1>
-        <H1>Brteno Gostozo</H1>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-  <RouterView />
-</template>
+  <div>
+    <Navbar/>
+  </div>
+</template>   
+<script>
+import Navbar from "./components/Navbar.vue"
+export default {
+  components: {
+    Navbar,
+  },
+};
+</script>
