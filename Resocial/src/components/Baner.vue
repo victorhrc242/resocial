@@ -23,7 +23,7 @@ export default {
   methods: {
     async loadBanners() {
       try {
-        const response = await fetch('/public/db/db.json');
+        const response = await fetch('/db/db.json');
         const data = await response.json();
         this.banners = data.banners;  // Carrega todos os banners do db.json
       } catch (error) {
