@@ -10,6 +10,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "Cards1",
@@ -24,7 +25,7 @@ export default {
   methods: {
     async loadCards() {
       try {
-        const response = await fetch('/db/db.json');
+        const response = await fetch('/public/db/db.json'); // A URL é relativa e acessa o arquivo da pasta public
         const data = await response.json();
         this.cards = data.cards;  // Carrega os cards do db.json
       } catch (error) {
