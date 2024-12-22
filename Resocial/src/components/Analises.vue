@@ -37,8 +37,7 @@
   };
   </script>
   
-  <style scoped>
-  .Analizas {
+  <style scoped>.Analizas {
     display: flex;
     flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas */
     gap: 20px; /* Espaço entre as análises */
@@ -99,5 +98,38 @@
     font-size: 18px;
     text-align: center;
   }
+  
+  /* Media Queries para responsividade */
+  
+  /* Para telas menores que 768px (como tablets) */
+  @media (max-width: 768px) {
+    .analise-item {
+      width: calc(50% - 20px); /* Cada item ocupa metade da largura */
+    }
+  
+    .Nota {
+      font-size: 14px; /* Ajusta o tamanho da nota */
+    }
+  
+    .Texto {
+      font-size: 16px; /* Ajusta o tamanho do texto */
+    }
+  }
+  
+  /* Para telas menores que 480px (como smartphones) */
+  @media (max-width: 480px) {
+    .analise-item {
+      width: 100%; /* Cada item ocupa a largura total */
+    }
+  
+    .Nota {
+      font-size: 12px; /* Ajusta o tamanho da nota */
+    }
+  
+    .Texto {
+      font-size: 14px; /* Ajusta o tamanho do texto */
+    }
+  }
+  
   </style>
   

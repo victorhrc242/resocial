@@ -39,8 +39,7 @@
   };
   </script>
   
-  <style scoped>
-  .layout-container {
+  <style scoped>.layout-container {
     padding: 20px;
   }
   
@@ -50,6 +49,7 @@
     gap: 20px;
   }
   
+  /* Card */
   .card {
     background-color: #f5f5f5;
     border-radius: 8px;
@@ -87,5 +87,43 @@
   .card-link:hover {
     text-decoration: underline;
   }
+  
+  /* Media Queries para responsividade */
+  @media (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas menores */
+    }
+  
+    .card-title {
+      font-size: 16px; /* Ajusta o tamanho do título */
+    }
+  
+    .card-description {
+      font-size: 12px; /* Ajusta o tamanho da descrição */
+    }
+  
+    .card-link {
+      font-size: 12px; /* Ajusta o tamanho do link */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards-container {
+      grid-template-columns: 1fr; /* Uma coluna em telas muito pequenas */
+    }
+  
+    .card-title {
+      font-size: 14px; /* Ajusta o tamanho do título para telas pequenas */
+    }
+  
+    .card-description {
+      font-size: 10px; /* Ajusta o tamanho da descrição */
+    }
+  
+    .card-link {
+      font-size: 10px; /* Ajusta o tamanho do link */
+    }
+  }
+  
   </style>
   

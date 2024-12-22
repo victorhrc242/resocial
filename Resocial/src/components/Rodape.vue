@@ -40,8 +40,7 @@
   };
   </script>
   
-  <style scoped>
-  footer {
+  <style scoped>footer {
     background-color: #333;
     color: white;
     padding: 20px;
@@ -55,6 +54,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas */
   }
   
   ul li {
@@ -117,6 +117,52 @@
   .Botão-para-voltar-ao-inicio button:hover {
     background-color: #B88A2D;
   }
+  
+  /* Media Queries para responsividade */
+  
+  /* Para telas menores que 768px (como tablets) */
+  @media (max-width: 768px) {
+    .Botão-para-voltar-ao-inicio button {
+      font-size: 14px; /* Ajusta o tamanho da fonte */
+      padding: 8px 16px; /* Ajusta o padding */
+    }
+  
+    ul {
+      flex-direction: column; /* Itens da lista se empilham em uma coluna */
+      align-items: center; /* Centraliza os itens */
+    }
+  
+    ul li {
+      margin: 10px 0; /* Ajusta o espaçamento vertical */
+    }
+  
+    .Baner-discord {
+      margin-top: 20px; /* Ajusta o espaçamento superior */
+    }
+  }
+  
+  /* Para telas menores que 480px (como smartphones) */
+  @media (max-width: 480px) {
+    .Botão-para-voltar-ao-inicio button {
+      font-size: 12px; /* Ajusta ainda mais o tamanho da fonte */
+      padding: 6px 12px; /* Ajusta o padding */
+    }
+  
+    ul {
+      flex-direction: column; /* Empilha os itens em uma coluna */
+      align-items: center; /* Centraliza os itens */
+    }
+  
+    .Baner-discord {
+      font-size: 14px; /* Ajusta o tamanho da fonte do banner */
+      margin-top: 15px; /* Ajusta o espaçamento superior */
+    }
+  
+    .Nota {
+      font-size: 12px; /* Ajusta o tamanho da nota */
+    }
+  }
+  
   </style>
   
   <!-- Incluindo o CDN do Font Awesome -->
