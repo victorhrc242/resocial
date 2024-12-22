@@ -9,24 +9,135 @@
         "cards": [
           {
             "id": 1,
-            "title": "Card 1",
-            "description": "Este é o primeiro card. Ele pode ter uma breve descrição do que é o card.",
-            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "title": "Resident evil 4",
+            "description": "Resident Evil 4 Remake atinge menor preço histórico na Nuuvem!",
+            "imageUrl": "https://gameplayscassi.com.br/wp-content/uploads/2023/10/Resident-Evil-4-Remake.jpg",
             "link": "https://www.exemplo1.com"
           },
           {
             "id": 2,
-            "title": "Card 2",
-            "description": "Este é o segundo card. Pode conter mais detalhes ou links para outras páginas.",
-            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "title": "Resident evil 3 Remake",
+            "description": "Capcom reafirma que RE3 é um remake completo e pergunta se fãs estão satisfeitos",
+            "imageUrl": "https://windowsclub.com.br/wp-content/uploads/2019/12/resident-evil-3-remake.jpg",
             "link": "https://www.exemplo2.com"
           },
           {
             "id": 3,
-            "title": "Card 3",
-            "description": "Aqui temos o terceiro card. A descrição pode ser personalizada para cada item.",
-            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "title": "Resident evil 3 Remake DLC",
+            "description": "Economize 60% em Resident Evil 3 - Todas as recompensas do jogo desbloqueadas no Steam",
+            "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1348140/ss_ef2f6d1f7fb6bf5b3a119d6db0a3aec92062e6e3.1920x1080.jpg?t=1596675670",
+            "link": "https://www.exemplo3.com"
+          },
+          {
+            "id": 4,
+            "title": "Resident evil",
+            "description": "75% no jogo Resident evil 1  steam",
+            "imageUrl": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000012854/f7f8825f8345b738c83602b4ce36c0cc2ca70d5c36075d930bc6ccb8b19f5445",
+            "link": "https://www.exemplo3.com"
+          },
+          {
+            "id": 5,
+            "title": "Sony",
+            "description": "Sony dá desconto de mais de 50% em jogos de PS4 na Promoção Flash",
+            "imageUrl": "https://s2-techtudo.glbimg.com/NNxU48zzUxIomc-PzVyzZysi9Sg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/M/j/9yKWAhTIWG6kYooquopQ/playstation-4-sony-promocao-flash-sale-crash-need-speed-nba.jpg",
+            "link": "https://www.exemplo3.com"
+          },
+          {
+            "id": 6,
+            "title": "Jogos Sega",
+            "description": "Jogos da SEGA em oferta na Nuuvem com até 80% de desconto",
+            "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202308/2121/ab4938af2f6b14888365200d2c913a9d8fc3bef5e818d4a1.jpg",
             "link": "https://www.exemplo3.com"
           }
-        ]
+        ],
+        "Reviws":[
+          {
+            "id":1,
+            "title":"Resident evil 9",
+            "description":"NOVOS VAZAMENTOS INSANOS DE RESIDENT EVIL 9",
+            "imageUrl":"https://psxbrasil.com.br/wp-content/uploads/2024/11/UvIKR5bN07Ihd.jpg",
+            "link":"https://www.exemplo1.com"
+          },
+          {
+            "id":2,
+            "title":"Resident evil Netflix",
+            "description":"A melhor Série de GAME já FEITA! - Review Resident Evil Netflix",
+            "imageUrl":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp5kluRMRIG_Sy1ltGSG3BqQKkHa1nIIucnDyrRf2A7vj56AYuMrl9KfHduuiU1jjwb4PSriulPx5ZCEJPhOFxkhLmPa4AJ4yeC0TxtITCmR5V9YXtKGReVFilimtnZk630-oeAxMy8jCFs55sh8ujC78HPThhYAvsFOS-pSj1Wz1j8ubUToEdeAHxag/s800/imagina%20um%20cientista%20com%20uma%20roupa%20dessas%20pelo%20laboratorio%20PARECE%20CONVINCENTE.jpg",
+            "link":"https://www.exemplo1.com"
+          },
+          {
+            "id":3,
+            "title":"Resident evil 2 Remake",
+            "description":"RESIDENT EVIL 2 REMAKE É UMA OBRA PRIMA",
+            "imageUrl":"https://store-images.s-microsoft.com/image/apps.45242.71571739681700792.c61fa2d7-3d69-4edf-8e51-accc41d47823.8a16b21a-96c4-474e-8fd4-629b9bc622ad?q=90&w=480&h=270",
+            "link":"https://www.exemplo1.com"
+          },
+          {
+            "id":4,
+            "title":"Resident evil 9",
+            "description":"Resident Evil 9: Capcom Comenta Sobre o Jogo e os Próximos Passos!",
+            "imageUrl":"https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/12/original-personalizado.jpg",
+            "link":"https://www.exemplo1.com"
+          },
+          {
+            "id":5,
+            "title":"Capcom",
+            "description":"Capcom valoriza tanto quanto Bitcoin em 2020, o que aconteceu? ",
+            "imageUrl":"https://cointimes.com.br/wp-content/uploads/2020/06/capcom-lucros-recordes-1-1.jpg",
+            "link":"https://www.exemplo1.com"
+          },
+          {
+            "id":6,
+            "title":"Qual a melhor Pistola?",
+            "description":"Qual é a Melhor Pistola em Resident Evil 4 Remake? Guia Completo pra Você Descobrir!",
+            "imageUrl":"https://i.ytimg.com/vi/euac0L4ygYw/maxresdefault.jpg",
+            "link":"https://www.exemplo1.com"
+          }
+        ],
+          "ReviewWiki": [
+            {
+              "id": 1,
+              "title": "Leon S Kenedy",
+              "description": "Leon S. Kennedy, protagonista de Resident Evil 4 Remake, é um agente do governo enviado para resgatar Ashley Graham, filha do presidente, sequestrada por um culto.",
+              "imageUrl": "https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24523755/Resident_Evil_4_remake_beginners_guide_17.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+              "link": "https://example.com/review-a"
+            },
+            {
+              "id": 2,
+              "title": "Ada Wong",
+              "description": "Ada Wong é uma agente secreta misteriosa que auxilia Leon S. Kennedy em Resident Evil 4 Remake, mas com seus próprios interesses, mantendo sua lealdade ambígua e adicionando tensão à história.",
+              "imageUrl": "https://sm.ign.com/ign_br/screenshot/default/resident-evil-4-5-900x503_zjfa.jpg",
+              "link": "https://example.com/review-b"
+            },
+            {
+              "id": 3,
+              "title": "ASHLEY",
+              "description": "Ashley Graham é a filha do presidente dos EUA, sequestrada por um culto em Resident Evil 4 Remake. Ela é o objetivo da missão de Leon S. Kennedy, que a resgata enquanto enfrentam diversos perigos.",
+              "imageUrl": "https://flowgames.gg/wp-content/uploads/2023/02/resident-evil-4-remake-story-trailer-gallery_qdqn.png",
+              "link": "https://example.com/review-c"
+            }
+          ] ,
+          "analises": [
+            {
+              "id": 1,
+              "imagemUrl": "https://i.ytimg.com/vi/X_--EOKV1t0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC2cdoK-uiCc-OC5jG21I2-fdXh0w",
+              "nota": "4.8",
+              "texto": "RESIDENT EVIL 2 - Análise",
+              "link": "https://exemplo.com/pagina1"
+            },
+            {
+              "id": 2,
+              "imagemUrl": "https://assets.nuuvem.com/image/upload/t_product_sharing_banner/v1/products/5df7db71e8d4f2071032bbd1/sharing_images/onhwm9jjnfjjr4tzxoqw.jpg",
+              "nota": "7.7",
+              "texto": "RESIDENT EVIL 3 - Análise",
+              "link": "https://exemplo.com/pagina2"
+            },
+            {
+              "id": 3,
+              "imagemUrl": "https://i.ytimg.com/vi/SsYi8vv_V5M/maxresdefault.jpg",
+              "nota": "9.1",
+              "texto": "RESIDENT EVIL 4 - Análise",
+              "link": "https://exemplo.com/pagina2"
+            }
+          ]
 }

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <a v-for="banners in banners" :key="banners.id" :href="banners.link" target="_blank">
+    <a v-for="banner in banners" :key="banner.id" :href="banner.link" target="_blank">
       <!-- Banner Desktop -->
-      <img v-if="banners.imageUrl" class="banner desktop-banner" :src="banners.imageUrl" :alt="'Banner ' + banners.id">
+      <img v-if="banner.imageUrl" class="banner desktop-banner" :src="banner.imageUrl" :alt="'Banner ' + banner.id">
       <!-- Banner Mobile -->
-      <img v-if="banners.imageUrl" class="banner mobile-banner" :src="banners.imageUrl" :alt="'Banner ' + banners.id">
+      <img v-if="banner.imageUrl" class="banner mobile-banner" :src="banner.imageUrl" :alt="'Banner ' + banner.id">
     </a>
   </div>
 </template>
@@ -36,22 +36,30 @@ export default {
 
 <style scoped>
 .banner {
-  width: 1280px;
-  height: 575px;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
-  margin-left: -31px;
 }
 
 @media only screen and (min-width: 767px) {
   .mobile-banner {
     display: none;
   }
+  .desktop-banner {
+    width: 1280px;
+    height: 575px;
+    margin-left: -31px; /* Ajuste para centralizar o banner */
+  }
 }
 
 @media only screen and (max-width: 766px) {
   .desktop-banner {
     display: none;
+  }
+  .mobile-banner {
+    width: 100%;
+    height: auto;
   }
 }
 </style>
