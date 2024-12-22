@@ -1,0 +1,32 @@
+{
+    "banners": [
+        {
+            "id": 1,
+            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "link": "https://www.exemplo1.com"
+        }
+    ],
+        "cards": [
+          {
+            "id": 1,
+            "title": "Card 1",
+            "description": "Este é o primeiro card. Ele pode ter uma breve descrição do que é o card.",
+            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "link": "https://www.exemplo1.com"
+          },
+          {
+            "id": 2,
+            "title": "Card 2",
+            "description": "Este é o segundo card. Pode conter mais detalhes ou links para outras páginas.",
+            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "link": "https://www.exemplo2.com"
+          },
+          {
+            "id": 3,
+            "title": "Card 3",
+            "description": "Aqui temos o terceiro card. A descrição pode ser personalizada para cada item.",
+            "imageUrl": "https://i.ytimg.com/vi/6SKxK-mf81k/maxresdefault.jpg",
+            "link": "https://www.exemplo3.com"
+          }
+        ]
+}
